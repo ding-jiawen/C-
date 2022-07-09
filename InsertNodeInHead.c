@@ -13,7 +13,7 @@ void HeadInsert(int x)
 {
 	struct Node* temp = (struct Node*)malloc(sizeof(struct Node));//为新创建的节点分配内存空间
 	temp -> data = x;
-	temp -> next = NULL;//15-19行也简写：temp->next = head;
+	temp -> next = NULL;//16-19行也简写：temp->next = head;
 	if(head != NULL)
 	{
 		temp -> next = head;//新创建的节点链接到上一个节点地址
